@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   vuefire: {
     // Будем пользоваться авторизацией
     auth: {
-      enabled: true,
+      enabled: false,
     },
     // Подключение для CSR авторизации
     config: {
