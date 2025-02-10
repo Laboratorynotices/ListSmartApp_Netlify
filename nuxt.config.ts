@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   modules: ["nuxt-vuefire"],
+  ssr: true,
   vuefire: {
     // Будем пользоваться авторизацией
     auth: {
